@@ -1,0 +1,20 @@
+body{
+    background-color: powderblue;
+}
+#h11{
+    color: seagreen;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 150%;
+    border: 3px solid sienna;  
+}
+h2{
+    color: red;
+}
+h3{
+    border: 5px solid red;
+    padding: 30px;
+}
+pre.color{
+    background-color: salmon;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
