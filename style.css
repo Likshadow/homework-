@@ -18,10 +18,13 @@ h3{
     padding: 30px;
 }
 pre.color{
-    background-color: salmon;
+  text-align: center;
+    color: pink;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-  a:link {
+
+
+  a:link { 
     color: green;
     background-color: transparent;
     text-decoration: none;
@@ -42,8 +45,8 @@ pre.color{
     text-decoration: underline;
   }
   
-  <!--
-  a:link, a:visited {
+   /*Благодаря этому из ССЫЛКИ МОЖНО СДЕЛАТЬ КНОПКУ БЕЗ ИСПОЛЬЗОВАНИЯ ТЕГА */
+  a.gg:link, a.gg:visited {
     background-color: #f44336;
     color: white;
     padding: 15px 25px;
@@ -52,7 +55,22 @@ pre.color{
     display: inline-block;
   }
   
-  a:hover, a:active {
+  a.gg:hover, a.gg:active {
     background-color: red;
   }
-  -->
+
+  img.display{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  div.add{
+    background-image: url(https://sun9-65.userapi.com/4jq8qScPNpnfG-zM2lIjVaJ7k2m9yc2DwVgUZA/0LwaxeI-imQ.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+  
+  
+
+  
