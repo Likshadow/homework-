@@ -71,6 +71,20 @@ pre.color{
     background-size: cover;
   }
   
+
+  table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+ th, td{
+padding: 5px;
+text-align: center;
+ }
+ table#t01{
+  width: 100%;    
+  background-color: #f1f1c1;
+  text-align: center;
+ }
   
 
   
