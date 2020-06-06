@@ -1,53 +1,90 @@
 body{
-    background-color: powderblue;
+    background-color: rgb(155, 207, 140);
 }
-#h11{
-    color: seagreen;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 150%;
-    border: 3px solid sienna;  
+hr{
+  height: 15px;
+  background-color: rgb(12, 53, 12);
 }
-
-h2.kkk{
-    text-align: center;
-    color: red;
+h1#h01{
+text-align: center;
 }
 
-h3{
-    border: 5px solid red;
-    padding: 30px;
+p#p01{
+  color: rgb(0, 0, 0); 
+  font-size: 50px;
 }
-pre.color{
+
+h1#h02{
+  color: rgb(12, 59, 33);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 150%;
+  border: 3px solid sienna;  
+}
+
+a{
+  font-size: xx-large;
+  margin: auto;
+}
+a:link { 
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited {
+  color: rgb(8, 44, 23);
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: rgb(20, 41, 97);
+  background-color: transparent;
+  text-decoration: underline;
+}
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+button{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100px;
+  height: 50px;
+}
+ div#block1{
+  float: left;
+  display: block;
+  width: 300px;
+  margin: 2px;
+ }
+ div#block2{
+  float: right;
+  display: block;
+  width: 300px;
+  margin: 2px;
+ }
+
+pre#pre01{
   text-align: center;
-    color: pink;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(8, 44, 23);
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-
-  a:link { 
-    color: green;
-    background-color: transparent;
-    text-decoration: none;
-  }
-  a:visited {
-    color: pink;
-    background-color: transparent;
-    text-decoration: none;
-  }
-  a:hover {
-    color: red;
-    background-color: transparent;
-    text-decoration: underline;
-  }
-  a:active {
-    color: yellow;
-    background-color: transparent;
-    text-decoration: underline;
-  }
+address{
+  font-size: 50px;
+  color:rgb(8, 44, 23) ;
+  text-align: center;
+}
   
-   /*Благодаря этому из ССЫЛКИ МОЖНО СДЕЛАТЬ КНОПКУ БЕЗ ИСПОЛЬЗОВАНИЯ ТЕГА */
+/*Благодаря этому из ССЫЛКИ МОЖНО СДЕЛАТЬ КНОПКУ БЕЗ ИСПОЛЬЗОВАНИЯ ТЕГА */
   a.gg:link, a.gg:visited {
-    background-color: #f44336;
+    background-color:rgb(12, 53, 12);
     color: white;
     padding: 15px 25px;
     text-align: center;
@@ -56,8 +93,26 @@ pre.color{
   }
   
   a.gg:hover, a.gg:active {
-    background-color: red;
+    background-color:  rgb(20, 41, 97);;
   }
+  
+a#gg{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 120px;
+  height: 80px;
+}
+img#dog{
+  width: 150px;
+  height: 150px;
+}
+
+
+
+
+
+
 
   img.display{
     display: block;
