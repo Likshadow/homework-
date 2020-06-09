@@ -27,6 +27,8 @@ hr{
   background-color: rgb(12, 53, 12);
 }
 h1#h01{
+text-shadow: black 2px 2px 5px;
+font-style: 10vw;
 text-align: center;
 }
 p#p01{
