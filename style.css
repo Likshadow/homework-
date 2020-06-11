@@ -21,7 +21,17 @@ li a#lia{
 li a:hover#lih{
   background-color:  rgb(155, 207, 140);
 }
+div.stc{
+color: bisque;
+text-align: center;
+position: -webkit-sticky;
+position: sticky;
+top: 0;
+padding: 5px;
+background-color:  rgb(6, 48, 6);
+border: 5px solid rgb(155, 207, 140);;
 
+}
 hr{
   height: 15px;
   background-color: rgb(12, 53, 12);
@@ -167,5 +177,12 @@ img#dog{
    padding: 50px;
    margin: auto;
  }
-
+div.over{
+  float: none;
+  width: 5cm;
+  height: 5cm;
+  background-color: rgb(12, 53, 12);
+  overflow-x: hidden;
+  overflow-y: auto;
+}
   
