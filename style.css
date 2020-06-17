@@ -145,6 +145,11 @@ img#dog{
     margin-left: auto;
     margin-right: auto;
   }
+
+img.dog:hover{
+opacity: 0.5;
+}
+
   div.add{
     background-image: url(https://sun9-65.userapi.com/4jq8qScPNpnfG-zM2lIjVaJ7k2m9yc2DwVgUZA/0LwaxeI-imQ.jpg);
     background-repeat: no-repeat;
@@ -185,4 +190,30 @@ div.over{
   overflow-x: hidden;
   overflow-y: auto;
 }
-  
+p.one::first-letter{
+    color: cadetblue;
+    font-size: 50px;
+  }
+ 
+  p.immg::before{
+    content: url(img04.jpg);
+  }
+  p.immg::after{
+    content: url(img04.jpg);
+  }
+
+  div.bk{
+    background: url(img05.jpg) repeat;
+    border: 2px solid cadetblue;
+  }
+  div.tb{
+  margin: 30px;
+  background-color: #ffffff;
+  border: 1px solid cadetblue;
+  opacity: 0.8;
+  }
+  div.p1{
+    margin: 5%;
+    font-weight: bold;
+    color: #c1f1c1;
+  }
